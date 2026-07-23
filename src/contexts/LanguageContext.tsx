@@ -87,7 +87,7 @@ const translations = {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-  const [lang, setLang] = useState<Language>('zh-TW');
+  const [lang, setLang] = useState<Language>('en');
 
   const t = (key: string) => {
     return translations[lang][key as keyof typeof translations['en']] || key;
