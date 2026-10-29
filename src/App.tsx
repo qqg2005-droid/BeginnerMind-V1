@@ -3,9 +3,9 @@ import { DisclaimerModal } from './components/DisclaimerModal';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
+import { CorePositioning } from './components/CorePositioning';
+import { InvestmentServices } from './components/InvestmentServices';
 import { Views } from './components/Views';
-import { Strategies } from './components/Strategies';
-import { Team } from './components/Team';
 import { Footer } from './components/Footer';
 
 export default function App() {
@@ -35,17 +35,14 @@ export default function App() {
         <DisclaimerModal onAccept={handleAcceptDisclaimer} />
       )}
       
-      {/* We keep the content rendered but obscure it via height overflow or just pointer events if not accepted, 
-          but for simplicity, we just show it underneath and the modal blocks interaction via fixed inset-0 */}
-      
       <Navigation />
       
       <main className={!hasAcceptedDisclaimer ? 'blur-sm pointer-events-none h-screen overflow-hidden' : ''}>
         <Hero />
         <About />
+        <CorePositioning />
+        <InvestmentServices />
         <Views />
-        <Strategies />
-        <Team />
       </main>
 
       {hasAcceptedDisclaimer && <Footer />}
