@@ -6,6 +6,7 @@ export const companyInfo = {
   addressZhTW: "香港黃竹坑道38號安盛匯25樓2507室",
   addressZhCN: "香港黄竹坑道38号安盛汇25楼2507室",
   email: "cs@beginner-mind.com",
+  phone: "+852 3963 9354",
   licenseEn: "SFC CE NO. BTB385",
   licenseZhTW: "香港證監會中央編號：BTB385",
   licenseZhCN: "香港证监会中央编号：BTB385",
@@ -18,31 +19,147 @@ export const aboutUs = {
   badgeEn: "Licensed Corporation · Type 9 Asset Management",
   badgeZhTW: "香港證監會持牌法團 · 第9類提供資產管理",
   badgeZhCN: "香港证监会持牌法团 · 第9类提供资产管理",
-  descriptionEn: "Beginner Mind Asset Management (HK) Ltd is an SFC-licensed asset manager rooted in Hong Kong. We provide comprehensive external asset management (EAM) and dual-domicile fund management solutions, uncovering asymmetric opportunities across global markets.",
-  descriptionZhTW: "初星資產管理（香港）有限公司是一家獲香港證監會核准發牌的專業資產管理機構，專注於提供外部資產管理（EAM）與雙在岸/離岸基金架構方案，在全球市場中發掘確定性投資機會。",
-  descriptionZhCN: "初星资产管理（香港）有限公司是一家获香港证监会核准发牌的专业资产管理机构，专注于提供外部资产管理（EAM）与双在岸/离岸基金架构方案，在全球市场中发掘确定性投资机会。",
+  descriptionEn: "Beginner Mind Asset Management (HK) Ltd is an SFC-licensed asset management institution rooted in Hong Kong (CE No. BTB385).",
+  descriptionZhTW: "初星資產管理（香港）有限公司是一家獲香港證監會核准發牌的專業資產管理法團（中央編號：BTB385）。",
+  descriptionZhCN: "初星资产管理（香港）有限公司是一家获香港证监会核准发牌的专业资产管理法团（中央编号：BTB385）。",
+  highlights: [
+    {
+      titleEn: "SFC Regulated Institution",
+      titleZhTW: "香港證監會嚴格規管",
+      titleZhCN: "香港证监会严格规管",
+      descEn: "Holds Type 9 (Asset Management) regulated activity license under CE No. BTB385.",
+      descZhTW: "持有香港證監會第9類（提供資產管理）牌照，中央編號：BTB385，合規運作透明可靠。",
+      descZhCN: "持有香港证监会第9类（提供资产管理）牌照，中央编号：BTB385，合规运作透明可靠。"
+    },
+    {
+      titleEn: "Professional Investors Dedicated",
+      titleZhTW: "僅限合資格專業投資者",
+      titleZhCN: "仅限合资格专业投资者",
+      descEn: "Strictly tailored for Qualified Institutional and Ultra-High-Net-Worth Professional Investors.",
+      descZhTW: "嚴格依據香港《證券及期貨條例》附表1標準，專注服務合格機構及高淨值專業投資者。",
+      descZhCN: "严格依据香港《证券及期货条例》附表1标准，专注服务合格机构及高净值专业投资者。"
+    },
+    {
+      titleEn: "Patient & Industrial Capital",
+      titleZhTW: "長期資本 · 產業資本",
+      titleZhCN: "长期资本 · 产业资本",
+      descEn: "Grounded in real-economy insights and cross-cycle patience, guarding century-long foundations.",
+      descZhTW: "具備跨週期的戰略耐心與實業深度認知，不隨短期市場噪音起伏，追求真實複利價值。",
+      descZhCN: "具备跨周期的战略耐心与实业深度认知，不随短期市场噪音起伏，追求真实复利价值。"
+    },
+    {
+      titleEn: "Global Financial Nexus",
+      titleZhTW: "全球四地一二級聯動網絡",
+      titleZhCN: "全球四地一二级联动网络",
+      descEn: "Deeply linking premier managers and think tanks across Hong Kong, Shenzhen, Silicon Valley, and Wall Street.",
+      descZhTW: "深度聯動香港、深圳、矽谷與華爾街頂尖管理人與產業智囊，構建全球視野與資訊雷達。",
+      descZhCN: "深度联动香港、深圳、硅谷与华尔街顶尖管理人与产业智囊，构建全球视野与资讯雷达。"
+    }
+  ]
+};
+
+export const coreBusiness = {
+  badgeEn: "Core Business Segments",
+  badgeZhTW: "核心業務板塊",
+  badgeZhCN: "核心业务板块",
+  titleEn: "Institutional Asset Management Architecture",
+  titleZhTW: "雙軌機構級資產管理業務體系",
+  titleZhCN: "双轨机构级资产管理业务体系",
+  subtitleEn: "Providing bespoke multi-asset custody, discretionary mandates, and statutory fund structures for global families and institutions.",
+  subtitleZhTW: "以買方視角與嚴密合規架構，提供私人銀行全權委託（EAM）與在岸/離岸法定基金管理雙軌解決方案。",
+  subtitleZhCN: "以买方视角与严密合规架构，提供私人银行全权委托（EAM）与在岸/离岸法定基金管理双轨解决方案。",
   services: [
     {
+      id: "eam",
+      tagEn: "Discretionary Mandate (LPOA)",
+      tagZhTW: "私人銀行全權委託管理",
+      tagZhCN: "私人银行全权委托管理",
       titleEn: "External Asset Management (EAM)",
       titleZhTW: "外部資產管理 (EAM)",
       titleZhCN: "外部资产管理 (EAM)",
-      detailsEn: "Private Banking Discretionary Portfolio Management",
-      detailsZhTW: "私人銀行賬戶全權委託受託管理",
-      detailsZhCN: "私人银行账户全权委托受托管理",
-      descEn: "Independent buy-side advisory, LPOA discretionary mandate, and bankruptcy-remote custody across global tier-1 private banks.",
-      descZhTW: "純粹買方視角，依託LPOA授權與頂級私行獨立託管，保障資金安全與全球執行效率。",
-      descZhCN: "纯粹买方视角，依托LPOA授权与顶级私行独立托管，保障资金安全与全球执行效率。"
+      headlineEn: "Independent Buy-side Advisory & Tier-1 Global Private Banking Custody",
+      headlineZhTW: "純粹買方立場 · 全球一線頂級私行託管 · 敏捷全權委託",
+      headlineZhCN: "纯粹买方立场 · 全球一线顶级私行托管 · 敏捷全权委托",
+      descEn: "Acting strictly on behalf of the client with a pure buy-side stance. Client assets remain safely segregated under the client's own name in global tier-1 private banks, while Beginner Mind manages portfolios dynamically under a Limited Power of Attorney (LPOA).",
+      descZhTW: "堅守純粹買方立場，客戶資產獨立託管於客戶在全球頂級私人銀行（如瑞銀、摩根士丹利、瑞士寶盛等）的獨立賬戶名下。初星資產管理透過 LPOA 授權進行敏捷投資管理，不觸碰客戶資金本金，破除傳統中介利益衝突與隱形成本。",
+      descZhCN: "坚守纯粹买方立场，客户资产独立托管于客户在全球顶级私人银行（如瑞银、摩根士丹利、瑞士宝盛等）的独立账户名下。初星资产管理透过 LPOA 授权进行敏捷投资管理，不触碰客户资金本金，破除传统中介利益冲突与隐形成本。",
+      image: "/images/exchange_square.jpg",
+      features: [
+        {
+          labelEn: "Tier-1 Custody Safety",
+          labelZhTW: "全球一線私行獨立託管",
+          labelZhCN: "全球一线私行独立托管",
+          detailEn: "Assets held under client name with complete bankruptcy remoteness.",
+          detailZhTW: "資產保留於客戶名下，與資產管理公司徹底破產隔離，資產絕對安全。"
+        },
+        {
+          labelEn: "LPOA Agile Execution",
+          labelZhTW: "LPOA 全權委託敏捷調倉",
+          labelZhCN: "LPOA 全权委托敏捷调仓",
+          detailEn: "Real-time market reaction without administrative delays.",
+          detailZhTW: "授權專業團隊實時把握全球市場交易窗口，第一時間完成動態調倉與對沖。"
+        },
+        {
+          labelEn: "Zero Conflict of Interest",
+          labelZhTW: "零利益衝突與透明費率",
+          labelZhCN: "零利益冲突与透明费率",
+          detailEn: "Unbundled institutional fees, passing full execution discounts to clients.",
+          detailZhTW: "穿透銀行底層產品費率，為客戶爭取最低機構交易佣金，無返佣導向。"
+        },
+        {
+          labelEn: "Cross-Bank Portfolio Consolidation",
+          labelZhTW: "跨行多賬戶綜合報表統籌",
+          labelZhCN: "跨行多账户综合报表统筹",
+          detailEn: "Unified performance and risk dashboard across multiple private banks.",
+          detailZhTW: "整合客戶在不同私人銀行的離岸資產，提供穿透式統一風險敞口監控。"
+        }
+      ]
     },
     {
+      id: "funds",
+      tagEn: "Dual-Domicile Fund Structures",
+      tagZhTW: "雙在岸/離岸法定基金載體",
+      tagZhCN: "双在岸/离岸法定基金载体",
       titleEn: "Fund Management",
       titleZhTW: "基金管理業務",
       titleZhCN: "基金管理业务",
-      detailsEn: "Hong Kong OFC & Cayman Islands Fund",
-      detailsZhTW: "香港開放式基金 (OFC) 與 開曼基金 (Cayman Fund)",
-      detailsZhCN: "香港开放式基金 (OFC) 与 开曼基金 (Cayman Fund)",
-      descEn: "Structuring compliant statutory investment vehicles across Hong Kong OFC and Cayman Islands fund structures for global capital pooling.",
-      descZhTW: "搭建香港開放式基金（OFC）與開曼群島基金（Cayman Fund）等境內外法定載體，實現資本高效運作與風險隔離。",
-      descZhCN: "搭建香港开放式基金（OFC）与开曼群岛基金（Cayman Fund）等境内外法定载体，实现资本高效运作与风险隔离。"
+      headlineEn: "Hong Kong OFC & Cayman Islands Fund (SPC / LP)",
+      headlineZhTW: "香港開放式基金 (OFC) 與 開曼群島基金 (Cayman Fund)",
+      headlineZhCN: "香港开放式基金 (OFC) 与 开曼群岛基金 (Cayman Fund)",
+      descEn: "Designing, establishing, and managing bespoke statutory fund vehicles. Seamlessly spanning Hong Kong Open-ended Fund Companies (OFC) and Cayman Segregated Portfolio Companies (SPC) / Limited Partnerships (LP) to achieve optimal cross-border capital pooling and risk partitioning.",
+      descZhTW: "為家族資本與機構投資者量身搭建境內外法定基金架構。全面覆蓋香港開放式基金型公司（OFC）以及開曼群島獨立投資組合公司（SPC）與有限合夥基金（LP），實現高效資本集聚、法定責任隔離與跨司法管轄區稅務合規優化。",
+      descZhCN: "为家族资本与机构投资者量身搭建境内外法定基金架构。全面覆盖香港开放式基金型公司（OFC）以及开曼群岛独立投资组合公司（SPC）与有限合伙基金（LP），实现高效资本集聚、法定责任隔离与跨司法管辖区税务合规优化。",
+      image: "/images/boc_sunny.jpg",
+      features: [
+        {
+          labelEn: "Hong Kong OFC Structure",
+          labelZhTW: "香港開放式基金型公司 (OFC)",
+          labelZhCN: "香港开放式基金型公司 (OFC)",
+          detailEn: "Statutory Hong Kong corporate fund vehicle benefiting from local tax exemption and government subsidies.",
+          detailZhTW: "香港本土法定公司型基金架構，享有合資格利得稅豁免，並可申請特區政府資助。"
+        },
+        {
+          labelEn: "Cayman SPC / LP Funds",
+          labelZhTW: "開曼群島基金 (Cayman SPC / LP)",
+          labelZhCN: "开曼群岛基金 (Cayman SPC / LP)",
+          detailEn: "Internationally recognized offshore fund vehicles with robust segregation of assets and liabilities.",
+          detailZhTW: "全球公認的離岸基金結構，子基金資產與負債法定嚴格隔離，適應多元策略並行。"
+        },
+        {
+          labelEn: "Family & Co-Investment Pools",
+          labelZhTW: "家族專屬子基金與跟投載體",
+          labelZhCN: "家族专属子基金与跟投载体",
+          detailEn: "Segregated share classes tailored for specific family branches or strategic syndication.",
+          detailZhTW: "支持按家族分支或特定直投/頂級對沖基金份額設立獨立子基金，運作靈活獨立。"
+        },
+        {
+          labelEn: "SFC Type 9 Statutory Governance",
+          labelZhTW: "證監會第9類機構持牌託管運作",
+          labelZhCN: "证监会第9类机构持牌托管运作",
+          detailEn: "Independent administrator, auditor, and custodian ensuring institutional governance.",
+          detailZhTW: "配合獨立基金行政管理人（Administrator）、審計師及託管人，符合國際機構級標準。"
+        }
+      ]
     }
   ]
 };
@@ -62,108 +179,7 @@ export const corePositioning = {
   insightZhCN: "行业深刻洞察：核心从来不是帮客户赚短期收益，而是搭建一套可以跨代延续的家族治理与资产增值体系。",
   commitmentEn: "Core Value Commitment: Upholding patient capital and industrial capital discipline, anchoring institutional risk management baselines, and achieving resilient multi-cycle growth and seamless generational succession.",
   commitmentZhTW: "核心價值承諾：秉持長期資本與產業資本定力，築牢風險管理底線，實現家族資產跨週期穩健增長與世代平穩傳承。",
-  commitmentZhCN: "核心价值承诺：秉持长期资本与产业资本定力，筑牢风险管理底线，实现家族资产跨周期稳健增长与世代平稳传承。",
-  pillars: [
-    {
-      id: "who-we-are",
-      titleEn: "Who We Are",
-      titleZhTW: "我們是誰？",
-      titleZhCN: "我们是谁？",
-      subtitleEn: "WHO WE ARE",
-      items: [
-        {
-          titleEn: "Patient Capital",
-          titleZhTW: "長期資本",
-          titleZhCN: "长期资本",
-          descEn: "Endowed with strategic multi-cycle patience and long-term vision, unaffected by transient market noise, pursuing compounding value.",
-          descZhTW: "具備跨週期的戰略耐心與長遠投資視野，不為短期波動所擾，追求複利價值。",
-          descZhCN: "具备跨周期的战略耐心与长远投资视野，不为短期波动所扰，追求复利价值。"
-        },
-        {
-          titleEn: "Industrial Capital",
-          titleZhTW: "產業資本",
-          titleZhCN: "产业资本",
-          descEn: "Rooted in real-economy foundations and deep industrial insights, dedicated to underlying commercial value and long-term empowerment.",
-          descZhTW: "根植實業根基與深度產業認知，專注底層商業價值沉澱與長期賦能成長。",
-          descZhCN: "根植实业根基与深度产业认知，专注底层商业价值沉淀与长期赋能成长。"
-        },
-        {
-          titleEn: "Global Elite Think Tank & Network",
-          titleZhTW: "全球頂級智囊與跨區域聯動網絡",
-          titleZhCN: "全球顶级智囊与跨区域联动网络",
-          descEn: "Convening world-class corporate think tanks, linking top VC/PE founders and hedge fund managers across Greater Bay Area, Silicon Valley, and Wall Street.",
-          descZhTW: "匯聚全球優秀企業智庫，聯動大灣區、矽谷與華爾街頂級 VC/PE 創始人及對沖基金管理人。",
-          descZhCN: "汇聚全球优秀企业智库，联动大湾区、硅谷与华尔街顶级 VC/PE 创始人及对冲基金管理人。"
-        }
-      ]
-    },
-    {
-      id: "problems-we-solve",
-      titleEn: "Problems We Solve",
-      titleZhTW: "我們解決什麼問題？",
-      titleZhCN: "我们解决什么问题？",
-      subtitleEn: "PROBLEMS WE SOLVE",
-      items: [
-        {
-          titleEn: "Long-term Wealth Preservation & Growth",
-          titleZhTW: "家族資金的長期增值及保值",
-          titleZhCN: "家族资金的长期增值及保值",
-          descEn: "Navigating macroeconomic cycles to safeguard the true purchasing power of family capital through macro asset allocation.",
-          descZhTW: "跨越宏觀經濟週期，以大類資產配置守衛家族財富真實購買力。",
-          descZhCN: "跨越宏观经济周期，以大类资产配置守卫家族财富真实购买力。"
-        },
-        {
-          titleEn: "Building Investment & Industry Linkages",
-          titleZhTW: "幫助家族建立投資及產業鏈接",
-          titleZhCN: "帮助家族建立投资及产业链接",
-          descEn: "Leveraging top managers and primary/secondary deals to broaden the commercial horizon and industry network of the next generation.",
-          descZhTW: "借力頂尖管理人與一二級實戰項目，培育二代商業視野與產業人脈圈。",
-          descZhCN: "借力顶尖管理人与一二级实战项目，培育二代商业视野与产业人脉圈。"
-        },
-        {
-          titleEn: "Eliminating Conflicts & Information Black Boxes",
-          titleZhTW: "破除利益衝突與資訊黑盒",
-          titleZhCN: "破除利益冲突与信息黑盒",
-          descEn: "Adhering strictly to an independent buy-side posture, cutting through intermediaries and hidden fees to achieve total transparency across private banks.",
-          descZhTW: "堅持純粹買方立場，穿透中介與隱性成本，實現跨私行資產與費率透明。",
-          descZhCN: "坚持纯粹买方立场，穿透中介与隐性成本，实现跨私行资产与费率透明。"
-        }
-      ]
-    },
-    {
-      id: "what-we-provide",
-      titleEn: "What We Provide",
-      titleZhTW: "我們提供什麼服務？",
-      titleZhCN: "我们提供什么服务？",
-      subtitleEn: "WHAT WE PROVIDE",
-      items: [
-        {
-          titleEn: "Global Multi-Asset Class Investments",
-          titleZhTW: "全球化多資產類別的投資",
-          titleZhCN: "全球化多资产类别的投资",
-          descEn: "Fixed income (IG and high-yield credit), secondary public equities, private equity, multi-strategy funds, and direct co-investments.",
-          descZhTW: "固收（投資級/高收益債）、二級股票與一級股權，多策略基金與直投組合。",
-          descZhCN: "固收（投资级/高收益债）、二级股票与一级股权，多策略基金与直投组合。"
-        },
-        {
-          titleEn: "Institutional Risk Control & Capital Safety",
-          titleZhTW: "注重風控，保障長期資金安全",
-          titleZhCN: "注重风控，保障长期资金安全",
-          descEn: "Deploying institutional all-weather risk monitoring and stress-testing models, strictly protecting down-side preservation thresholds.",
-          descZhTW: "建立機構級全天候風控模型與壓力測試體系，嚴格控制下行風險底線。",
-          descZhCN: "建立机构级全天候风控模型与压力测试体系，严格控制下行风险底线。"
-        },
-        {
-          titleEn: "Comprehensive Family Succession",
-          titleZhTW: "家族傳承架構與接班人培育",
-          titleZhCN: "家族传承架构与接班人培育",
-          descEn: "Offshore/onshore family trusts, cross-border tax compliance, global residency mobility, and next-generation leadership grooming.",
-          descZhTW: "離岸/本地家族信託搭建、跨境稅務合規統籌、海外身份與接班人培育體系。",
-          descZhCN: "离岸/本地家族信托搭建、跨境税务合规统筹、海外身份与接班人培育体系。"
-        }
-      ]
-    }
-  ]
+  commitmentZhCN: "核心价值承诺：秉持长期资本与产业资本定力，筑牢风险管理底线，实现家族资产跨周期稳健增长与世代平稳传承。"
 };
 
 export const investmentServices = {

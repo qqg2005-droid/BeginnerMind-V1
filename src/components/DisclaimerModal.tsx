@@ -5,9 +5,10 @@ import { ShieldCheck, Globe } from 'lucide-react';
 
 interface DisclaimerModalProps {
   onAccept: () => void;
+  onClose?: () => void;
 }
 
-export function DisclaimerModal({ onAccept }: DisclaimerModalProps) {
+export function DisclaimerModal({ onAccept, onClose }: DisclaimerModalProps) {
   const { t, lang, setLang, l } = useLanguage();
   const [modalLang, setModalLang] = useState<Language>(lang || 'en');
 
@@ -37,29 +38,42 @@ export function DisclaimerModal({ onAccept }: DisclaimerModalProps) {
             </p>
           </div>
 
-          {/* Modal Language Selector */}
-          <div className="flex items-center gap-1.5 bg-white border border-gray-200 rounded px-2 py-1 flex-shrink-0 text-xs">
-            <Globe className="w-3.5 h-3.5 text-gray-400" />
-            <button
-              onClick={() => handleLangChange('en')}
-              className={`font-semibold px-1 py-0.5 rounded ${modalLang === 'en' ? 'text-[#002D5B] bg-blue-50 font-bold' : 'text-gray-400 hover:text-gray-600'}`}
-            >
-              EN
-            </button>
-            <span className="text-gray-300">|</span>
-            <button
-              onClick={() => handleLangChange('zh-TW')}
-              className={`font-semibold px-1 py-0.5 rounded ${modalLang === 'zh-TW' ? 'text-[#002D5B] bg-blue-50 font-bold' : 'text-gray-400 hover:text-gray-600'}`}
-            >
-              繁
-            </button>
-            <span className="text-gray-300">|</span>
-            <button
-              onClick={() => handleLangChange('zh-CN')}
-              className={`font-semibold px-1 py-0.5 rounded ${modalLang === 'zh-CN' ? 'text-[#002D5B] bg-blue-50 font-bold' : 'text-gray-400 hover:text-gray-600'}`}
-            >
-              简
-            </button>
+          <div className="flex items-center gap-2">
+            {/* Modal Language Selector */}
+            <div className="flex items-center gap-1.5 bg-white border border-gray-200 rounded px-2 py-1 flex-shrink-0 text-xs">
+              <Globe className="w-3.5 h-3.5 text-gray-400" />
+              <button
+                onClick={() => handleLangChange('en')}
+                className={`font-semibold px-1 py-0.5 rounded ${modalLang === 'en' ? 'text-[#002D5B] bg-blue-50 font-bold' : 'text-gray-400 hover:text-gray-600'}`}
+              >
+                EN
+              </button>
+              <span className="text-gray-300">|</span>
+              <button
+                onClick={() => handleLangChange('zh-TW')}
+                className={`font-semibold px-1 py-0.5 rounded ${modalLang === 'zh-TW' ? 'text-[#002D5B] bg-blue-50 font-bold' : 'text-gray-400 hover:text-gray-600'}`}
+              >
+                繁
+              </button>
+              <span className="text-gray-300">|</span>
+              <button
+                onClick={() => handleLangChange('zh-CN')}
+                className={`font-semibold px-1 py-0.5 rounded ${modalLang === 'zh-CN' ? 'text-[#002D5B] bg-blue-50 font-bold' : 'text-gray-400 hover:text-gray-600'}`}
+              >
+                简
+              </button>
+            </div>
+
+            {onClose && (
+              <button
+                type="button"
+                onClick={onClose}
+                className="p-1 text-gray-400 hover:text-gray-700 hover:bg-gray-200/60 rounded transition-colors"
+                aria-label="Close"
+              >
+                ✕
+              </button>
+            )}
           </div>
         </div>
         

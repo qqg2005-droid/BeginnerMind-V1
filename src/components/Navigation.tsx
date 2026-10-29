@@ -8,9 +8,9 @@ export function Navigation() {
 
   const navLinks = [
     { label: t('nav.about'), href: "#about" },
-    { label: t('nav.positioning'), href: "#positioning" },
+    { label: t('nav.business'), href: "#business" },
     { label: t('nav.investments'), href: "#investments" },
-    { label: t('nav.views'), href: "#views" },
+    { label: t('nav.contact'), href: "#contact" },
   ];
 
   return (

@@ -3,9 +3,9 @@ import { DisclaimerModal } from './components/DisclaimerModal';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
-import { CorePositioning } from './components/CorePositioning';
+import { CoreBusiness } from './components/CoreBusiness';
 import { InvestmentServices } from './components/InvestmentServices';
-import { Views } from './components/Views';
+import { ContactUs } from './components/ContactUs';
 import { Footer } from './components/Footer';
 
 export default function App() {
@@ -40,9 +40,9 @@ export default function App() {
       <main className={!hasAcceptedDisclaimer ? 'blur-sm pointer-events-none h-screen overflow-hidden' : ''}>
         <Hero />
         <About />
-        <CorePositioning />
+        <CoreBusiness />
         <InvestmentServices />
-        <Views />
+        <ContactUs />
       </main>
 
       {hasAcceptedDisclaimer && <Footer />}
