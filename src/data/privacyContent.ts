@@ -72,7 +72,7 @@ export const privacyPolicyContent: Record<'en' | 'zh-TW' | 'zh-CN', PrivacyPolic
           "For any data access, correction requests, or questions regarding this Privacy Policy, please contact our Compliance Officer:",
           "• Email: cs@beginner-mind.com",
           "• Telephone: +852 3963 9354",
-          "• Address: Office 2507, 25/F, Spaces AXA Southside, 38 Wong Chuk Hang Road, Hong Kong"
+          "• Address: Office 2507, 25/F, AXA Southside, 38 Wong Chuk Hang Road, Hong Kong"
         ]
       }
     ]

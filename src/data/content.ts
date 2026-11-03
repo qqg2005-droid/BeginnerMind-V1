@@ -2,7 +2,7 @@ export const companyInfo = {
   nameEn: "Beginner Mind Asset Management (HK) Ltd",
   nameZhTW: "初星資產管理（香港）有限公司",
   nameZhCN: "初星资产管理（香港）有限公司",
-  addressEn: "Office 2507, 25/F, Spaces AXA Southside, 38 Wong Chuk Hang Road, Hong Kong",
+  addressEn: "Office 2507, 25/F, AXA Southside, 38 Wong Chuk Hang Road, Hong Kong",
   addressZhTW: "香港黃竹坑道38號安盛匯25樓2507室",
   addressZhCN: "香港黄竹坑道38号安盛汇25楼2507室",
   email: "cs@beginner-mind.com",
