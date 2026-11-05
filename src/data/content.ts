@@ -66,24 +66,24 @@ export const coreBusiness = {
   titleZhTW: "雙軌機構級資產管理業務體系",
   titleZhCN: "双轨机构级资产管理业务体系",
   subtitleEn: "Providing bespoke multi-asset custody, discretionary mandates, and statutory fund structures for global families and institutions.",
-  subtitleZhTW: "以買方視角與嚴密合規架構，提供私人銀行全權委託（EAM）與在岸/離岸法定基金管理雙軌解決方案。",
-  subtitleZhCN: "以买方视角与严密合规架构，提供私人银行全权委托（EAM）与在岸/离岸法定基金管理双轨解决方案。",
+  subtitleZhTW: "以買方視角與嚴密合規架構，提供家族辦公室全權委託與在岸/離岸法定基金管理雙軌解決方案。",
+  subtitleZhCN: "以买方视角与严密合规架构，提供家族办公室全权委托与在岸/离岸法定基金管理双轨解决方案。",
   services: [
     {
       id: "eam",
       tagEn: "Discretionary Mandate (LPOA)",
       tagZhTW: "私人銀行全權委託管理",
       tagZhCN: "私人银行全权委托管理",
-      titleEn: "External Asset Management (EAM)",
-      titleZhTW: "外部資產管理 (EAM)",
-      titleZhCN: "外部资产管理 (EAM)",
+      titleEn: "Family Office",
+      titleZhTW: "家族辦公室",
+      titleZhCN: "家族办公室",
       headlineEn: "Independent Buy-side Advisory & Tier-1 Global Private Banking Custody",
       headlineZhTW: "純粹買方立場 · 全球一線頂級私行託管 · 敏捷全權委託",
       headlineZhCN: "纯粹买方立场 · 全球一线顶级私行托管 · 敏捷全权委托",
       descEn: "Acting strictly on behalf of the client with a pure buy-side stance. Client assets remain safely segregated under the client's own name in global tier-1 private banks, while Beginner Mind manages portfolios dynamically under a Limited Power of Attorney (LPOA).",
       descZhTW: "堅守純粹買方立場，客戶資產獨立託管於客戶在全球頂級私人銀行（如瑞銀、摩根士丹利、瑞士寶盛等）的獨立賬戶名下。初星資產管理透過 LPOA 授權進行敏捷投資管理，不觸碰客戶資金本金，破除傳統中介利益衝突與隱形成本。",
       descZhCN: "坚守纯粹买方立场，客户资产独立托管于客户在全球顶级私人银行（如瑞银、摩根士丹利、瑞士宝盛等）的独立账户名下。初星资产管理透过 LPOA 授权进行敏捷投资管理，不触碰客户资金本金，破除传统中介利益冲突与隐形成本。",
-      image: "/images/exchange_square.jpg",
+      image: "/images/harbour_star_ferry.jpg",
       features: [
         {
           labelEn: "Tier-1 Custody Safety",
@@ -129,7 +129,7 @@ export const coreBusiness = {
       descEn: "Designing, establishing, and managing bespoke statutory fund vehicles. Seamlessly spanning Hong Kong Open-ended Fund Companies (OFC) and Cayman Segregated Portfolio Companies (SPC) / Limited Partnerships (LP) to achieve optimal cross-border capital pooling and risk partitioning.",
       descZhTW: "為家族資本與機構投資者量身搭建境內外法定基金架構。全面覆蓋香港開放式基金型公司（OFC）以及開曼群島獨立投資組合公司（SPC）與有限合夥基金（LP），實現高效資本集聚、法定責任隔離與跨司法管轄區稅務合規優化。",
       descZhCN: "为家族资本与机构投资者量身搭建境内外法定基金架构。全面覆盖香港开放式基金型公司（OFC）以及开曼群岛独立投资组合公司（SPC）与有限合伙基金（LP），实现高效资本集聚、法定责任隔离与跨司法管辖区税务合规优化。",
-      image: "/images/boc_sunny.jpg",
+      image: "/images/harbour_panoramic.jpg",
       features: [
         {
           labelEn: "Hong Kong OFC Structure",
